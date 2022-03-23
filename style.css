@@ -84,3 +84,16 @@ p {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+
+@media only screen and (max-width: 750px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal {
+    padding: 3rem;
+    height: 40%;
+    overflow-y: auto;
+  }
+}
